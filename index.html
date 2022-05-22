@@ -6,20 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>A Random Quiz!</title>
+    <title>A Random Quiz!!!</title>
 </head>
 
 <body>
     <!-- scores link -->
-    <div class="scores"><a href="scores.html"></a></div>
+    <div class="scores"><button id="hsbtn">Highscores<a href="scores.html"></button></a></div>
     <!-- test contatiner -->
-    <!-- timer -->
-    <!-- test wrapper -->
-    <!-- start screen -->
-    <!-- start button -->
-    <!-- questions -->
-    <!-- final screen -->
-    <!-- initials -->
+    <div class="quiz-container">
+        <!-- timer -->
+        <div class="count-down">Time Left:<span class="seconds"></span></div>
+        <!-- test wrapper -->
+        <!-- start screen -->
+        <div id="start-screen" class="start">
+            <h1>A Random Quiz Built With JS</h1>
+            <p>Try and answer all the following questions within the time limit.
+                Incorrect answers will penalize your scoretime
+                by ten seconds! You have 75 seconds to answer 5 questions! Click Highscores to view all the scores!</p>
+            <!-- start button -->
+            <button id="start">Start Quiz</button>
+        </div>
+        <!-- questions -->
+        <div id="questions" class="hide">
+            <h2 id="question-header"></h2>
+            <div id="choices" class="choices"></div>
+        </div>
+        <!-- final screen -->
+        <div id="quiz-finished" class="hide">
+            <h2>How did you do?</h2>
+            <p>Your final score is <span id="finalScore"></span>.</p>
+            <!-- initials -->
+            <p> Enter Alias: <input type="text" id="Alias" max="20" />
+                <button id="submit">Submit</button></button>
+            </p>
+        </div>
+        <div id="feedback" class="feedback hide"></div>
+
+    </div>
     <!-- javascript links -->
 
 </body>

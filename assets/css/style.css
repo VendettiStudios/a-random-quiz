@@ -1,0 +1,12 @@
+
+
+/* editing Button container */
+.scores {
+    background-color:lightgoldenrodyellow;
+    text-align:center;
+}
+
+/* hides elements */
+.hide {
+    display:none;
+}
