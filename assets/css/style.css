@@ -13,9 +13,8 @@ body {
     height:100px;
     justify-content: center;
 }
-#highscores {
+#highscores, #btq {
     height: 75px;
-    vertical-align: center;
     background-color:lightcyan;
     color:lightseagreen;
     width:20%;
@@ -54,12 +53,12 @@ body {
     font-size: larger;
     font-weight: 900;
 }
-#start  {
+#start, #delete  {
     height: 50px;
     vertical-align: center;
     background-color:lightcyan;
     color:lightseagreen;
-    width:15%;
+    width:20%;
     margin-top:30px;
     border-radius:50px;
     font-weight:900;
