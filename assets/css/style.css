@@ -1,12 +1,67 @@
+body {
+    background-color:lightseagreen;
+    color:darkblue;
+    text-align:center;
+    height:100%;
+}
 
 
 /* editing Button container */
 .scores {
-    background-color:lightgoldenrodyellow;
+    background-color:lightgreen;
     text-align:center;
+    height:100px;
+    justify-content: center;
 }
-
+#highscores {
+    height: 75px;
+    vertical-align: center;
+    background-color:lightcyan;
+    color:lightseagreen;
+    width:20%;
+    margin-top:10px;
+    border-radius:50px;
+    font-weight:900;
+    font-size:30px;
+}
+#highscores:hover {
+    background-color:aquamarine;
+    color:darksalmon
+}
 /* hides elements */
 .hide {
     display:none;
+}
+
+.quiz-container {
+    padding:5%;
+    background-color: lightgreen;
+    margin-top:10%;
+    margin-left:25%;
+    margin-right:25%;
+    border-radius:100px;
+}
+.count-down {
+    background-color:lightcyan;
+    margin-bottom:50px;
+    border-radius:50px;
+    height:25px;
+}
+#count-down {
+    margin-left:40%;
+    margin-right:40%;
+    text-align:center;
+    font-size: larger;
+    font-weight: 900;
+}
+#start  {
+    height: 50px;
+    vertical-align: center;
+    background-color:lightcyan;
+    color:lightseagreen;
+    width:15%;
+    margin-top:30px;
+    border-radius:50px;
+    font-weight:900;
+    font-size:15px;
 }
