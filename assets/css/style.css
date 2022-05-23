@@ -13,7 +13,7 @@ body {
     height:100px;
     justify-content: center;
 }
-#highscores, #btq {
+#scores, #btq {
     height: 75px;
     background-color:lightcyan;
     color:lightseagreen;
@@ -23,7 +23,7 @@ body {
     font-weight:900;
     font-size:30px;
 }
-#highscores:hover {
+#scores:hover {
     background-color:aquamarine;
     color:darksalmon
 }
@@ -33,7 +33,8 @@ body {
 }
 
 .quiz-container {
-    padding:5%;
+    padding:3%;
+    padding-top:4%;
     background-color: lightgreen;
     margin-top:10%;
     margin-left:25%;
@@ -70,3 +71,11 @@ body {
     font-weight:900;
     font-size:15px;
 }
+.choices button {
+    background-color: lightcyan;
+    color:lightseagreen;
+    border-radius: 50px;
+    padding:2%;
+    font-weight: 900;
+}
+

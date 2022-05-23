@@ -2,13 +2,13 @@
 let questions = [
     {
       title: "How many letters are in Four?",
-      choices: ["1", "2", "3", "4"],
-      answer: "4"
+      choices: ["one", "two", "three", "four"],
+      answer: "four"
     },
     {
       title: "How many vowels in five?",
-      choices: ["1", "2", "3", "4"],
-      answer: "2"
+      choices: ["one", "two", "three", "four"],
+      answer: "two"
     },
     {
       title: "What movie has a wizard?",
