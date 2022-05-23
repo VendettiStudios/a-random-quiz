@@ -40,19 +40,25 @@ body {
     margin-right:25%;
     border-radius:100px;
 }
-.count-down {
+.timer {
     background-color:lightcyan;
     margin-bottom:50px;
     border-radius:50px;
     height:25px;
-}
-#count-down {
     margin-left:40%;
     margin-right:40%;
     text-align:center;
     font-size: larger;
     font-weight: 900;
 }
+ #time {
+    background-color:lightcyan;
+    color:red;
+    border-radius:10px;
+    font-weight:900;
+
+} 
+
 #start, #delete  {
     height: 50px;
     vertical-align: center;
