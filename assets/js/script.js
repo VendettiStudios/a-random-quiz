@@ -82,8 +82,7 @@ function questionClick() {
     // show feedback for 2.5 seconds
     feedbackEl.setAttribute("class", "feedback")
     setTimeout(function () {
-        feedbackEl.setAttribute("class", "feedback hide")
-        feedbackEl.setAttribute("class", "feedback hide")
+        feedbackEl.setAttribute("class", "feedback hide");
     }, 2500)
     // advance to next question
     currentQuestionIndex++
@@ -124,7 +123,7 @@ function saveScore() {
             alias: alias
         };
         // pushes score to saved scorelist array
-        scorelist.push( newScore );
+        scorelist.push(newScore);
         window.localStorage.setItem("scorelist", JSON.stringify(scorelist))
 
         window.location.href = "scores.html"
@@ -133,7 +132,6 @@ function saveScore() {
 }
 
 function checkForEnter(event) {
-    // 13 = error key
     if (event.key === "Enter") {
         saveScore();
     }

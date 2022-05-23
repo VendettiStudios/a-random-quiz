@@ -79,3 +79,9 @@ body {
     font-weight: 900;
 }
 
+#scorelist {
+    background-color:lightcyan;
+    color:darksalmon;
+    font-weight:600;
+    list-style-type:none;
+}
